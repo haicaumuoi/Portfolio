@@ -3,8 +3,8 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/api/getPageInfo": "pages/api/getPageInfo.js",
   "/api/getSkills": "pages/api/getSkills.js",
+  "/api/getPageInfo": "pages/api/getPageInfo.js",
   "/api/getProjects": "pages/api/getProjects.js",
   "/api/getSocials": "pages/api/getSocials.js"
 }
