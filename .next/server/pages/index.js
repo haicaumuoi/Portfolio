@@ -941,7 +941,7 @@ const urlFor = (source)=>image_url_default()(config).image(source);
 /* harmony export */   "R": () => (/* binding */ fetchPageInfo)
 /* harmony export */ });
 const fetchPageInfo = async ()=>{
-    const res = await fetch(`${"http://localhost:3000"}/api/getPageInfo`);
+    const res = await fetch(`${"https://haicaumuoi.vercel.app"}/api/getPageInfo`);
     const data = await res.json();
     const pageInfo = data.pageInfo;
     return pageInfo;
@@ -957,7 +957,7 @@ const fetchPageInfo = async ()=>{
 /* harmony export */   "G": () => (/* binding */ fetchProject)
 /* harmony export */ });
 const fetchProject = async ()=>{
-    const res = await fetch(`${"http://localhost:3000"}/api/getProjects`);
+    const res = await fetch(`${"https://haicaumuoi.vercel.app"}/api/getProjects`);
     const data = await res.json();
     const projects = data.projects;
     console.log(projects);
@@ -974,7 +974,7 @@ const fetchProject = async ()=>{
 /* harmony export */   "T": () => (/* binding */ fetchSkills)
 /* harmony export */ });
 const fetchSkills = async ()=>{
-    const res = await fetch(`${"http://localhost:3000"}/api/getSkills`);
+    const res = await fetch(`${"https://haicaumuoi.vercel.app"}/api/getSkills`);
     const data = await res.json();
     const skills = data.skills;
     console.log(skills);
@@ -991,7 +991,7 @@ const fetchSkills = async ()=>{
 /* harmony export */   "K": () => (/* binding */ fetchSocial)
 /* harmony export */ });
 const fetchSocial = async ()=>{
-    const res = await fetch(`${"http://localhost:3000"}/api/getSocials`);
+    const res = await fetch(`${"https://haicaumuoi.vercel.app"}/api/getSocials`);
     const data = await res.json();
     const socials = data.socials;
     console.log(socials);
