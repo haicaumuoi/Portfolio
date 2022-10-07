@@ -17,7 +17,7 @@ function Skill({ skill, directionLeft }: Props) {
         transition={{ duration: 1 }}
         whileInView={{ opacity: 1, x: 0 }}
         src={urlFor(skill?.image).url()}
-        className="w-24 h-24 rounded-full border border-gray-500 object-cover xl:w-28 xl:h-28 filter group-hover:grayscale transition duration-300 ease-in-out"
+        className="w-24 h-24 rounded-full border border-gray-500 object-fit xl:w-28 xl:h-28 filter group-hover:grayscale transition duration-300 ease-in-out"
       />
       <div className="absolute opacity-0 group-hover:opacity-80  transition duration-300 ease-in-out group-hover:bg-white h-24 w-24 xl:h-28 xl:w-28 rounded-full z-0">
         <div className="flex items-center justify-center h-full">

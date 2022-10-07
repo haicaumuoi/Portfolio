@@ -56,7 +56,7 @@ function Projects({ projects }: Props) {
                   ))}
                 </div>
               </div>
-              <p className="xl:w-2/3">{project?.summary}</p>
+              <p className="xl:w-1/2 text-center">{project?.summary}</p>
             </motion.div>
           </a>
         ))}
