@@ -19,6 +19,9 @@ function Projects({ projects }: Props) {
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Projects
       </h3>
+      <h3 className="absolute top-36 uppercase tracking-[4px] lg:tracking-[10px] text-gray-500 text-lg lg:text-xl">
+        (Shift + Scroll for more)
+      </h3>
 
       <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 xl:mt-24 mt-8">
         {projects.map((project) => (
@@ -36,7 +39,7 @@ function Projects({ projects }: Props) {
                 transition={{ duration: 1.2 }}
                 src={urlFor(project?.image).url()}
                 alt="avt"
-                className="w-60 h-60 text-center"
+                className="w-60 h-60 text-center z-30"
               />
               <div className="space-y-10 px-0 md:px-10 max-w-6xl">
                 <h4 className="text-2xl lg:text-4xl font-semibold text-center">
